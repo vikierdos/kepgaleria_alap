@@ -1,0 +1,44 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.galeria .kep {
+   flex: 0 0 20%;
+   border: 1px solid gray; 
+    border-radius: 10px;
+    padding: 5px;
+}
+.galeria img {
+    width: 100%;
+}
+
+.nagykepdiv {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.nagykep {
+    border: 1px solid gray; 
+    border-radius: 10px;
+    align-items: flex-start;
+    background-color: antiquewhite;
+    position: absolute ;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    padding: 10px;
+}
+
+.rejtett{
+    display: none;
+}
+
+
+.nagykepdiv img {
+    width: 50%;
+}
+
